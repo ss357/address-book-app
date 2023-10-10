@@ -18,6 +18,7 @@ export default function ContactList(props) {
             <Spacer y={4} />
 
             <ContactCard
+                             className='min-h-screen'
               deleteContact={deleteContactHandler}
               onEdit={editContactHandler}
               id={contact.id}
